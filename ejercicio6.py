@@ -1,10 +1,8 @@
 """
  Programa que lea una cadena por teclado y compruebe si es una letra mayúscula.
 """
-user = input("Ingresa tu nombre de usuario:")
-passw = input("Ingresa la contraseña:")
-if user == "Nany" and passw == "nanytr" :
-    print("Has ingresado al sistema!")
-else: 
-    print("Usuario o Contraseña incorrectos!")
-print("Fin del programa")
+letra = input("Ingresa una Letra:")
+if len (letra) == letra.isupper():
+    print("La Letra es Mayuscula!")
+else:
+    print("No es una letra mayuscula!")    
