@@ -26,4 +26,5 @@ elif j1 == "tijeras" and  j2 == "piedra":
     print("Gana el jugador 2")
 elif j1 == "piedra" and j2 == "tijeras":
     print("Gana el jugador 1")
-
+else:
+    print("Opcion incorrecta")
